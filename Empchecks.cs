@@ -14,6 +14,7 @@ namespace Empwage
         {
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
+            int IS_PART_TIME = 2;
 
 
             int empHrs = 0;
@@ -26,6 +27,9 @@ namespace Empwage
             {
                 empHrs=8;
 
+            }else if (empcheck == IS_PART_TIME)
+            {
+                empHrs=4;
             }
             else
             {
